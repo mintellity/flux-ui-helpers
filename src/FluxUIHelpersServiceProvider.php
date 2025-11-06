@@ -11,12 +11,7 @@ class FluxUIHelpersServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
-        $package->name('fluxuihelpers')->hasConfigFile();
+        $package->name('fluxuihelpers')->hasConfigFile('flux_ui_helpers');;
 
         Livewire::component('session-toast', SessionToast::class);
     }
