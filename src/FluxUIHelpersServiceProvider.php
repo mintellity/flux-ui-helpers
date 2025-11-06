@@ -4,7 +4,6 @@ namespace Tobiasn\FluxUIHelpers;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tobiasn\FluxUIHelpers\Commands\FluxUIHelpersCommand;
 
 class FluxUIHelpersServiceProvider extends PackageServiceProvider
 {
@@ -15,11 +14,6 @@ class FluxUIHelpersServiceProvider extends PackageServiceProvider
          *
          * More info: https://github.com/spatie/laravel-package-tools
          */
-        $package
-            ->name('fluxuihelpers')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_fluxuihelpers_table')
-            ->hasCommand(FluxUIHelpersCommand::class);
+        $package->name('fluxuihelpers')->hasConfigFile();
     }
 }
