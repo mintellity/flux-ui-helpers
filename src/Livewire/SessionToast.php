@@ -2,8 +2,8 @@
 
 namespace Tobiasn\FluxUIHelpers\Livewire;
 
-use Tobiasn\FluxUIHelpers\Builders\FluxToast;
 use Livewire\Component;
+use Tobiasn\FluxUIHelpers\Builders\FluxToast;
 
 class SessionToast extends Component
 {

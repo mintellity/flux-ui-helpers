@@ -14,7 +14,6 @@ class FluxToast
 
     private int $duration;
 
-
     public function __construct(string $type)
     {
         $this->type = $type;
