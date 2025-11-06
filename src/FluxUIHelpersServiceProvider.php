@@ -2,8 +2,10 @@
 
 namespace Tobiasn\FluxUIHelpers;
 
+use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Tobiasn\FluxUIHelpers\Livewire\SessionToast;
 
 class FluxUIHelpersServiceProvider extends PackageServiceProvider
 {
@@ -15,5 +17,7 @@ class FluxUIHelpersServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package->name('fluxuihelpers')->hasConfigFile();
+
+        Livewire::component('session-toast', SessionToast::class);
     }
 }
