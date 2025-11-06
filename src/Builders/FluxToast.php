@@ -12,13 +12,11 @@ class FluxToast
 
     private ?string $heading;
 
-    private int $duration;
+    private int $duration = 2000;
 
     public function __construct(string $type)
     {
         $this->type = $type;
-
-        $this->duration = config('flux_ui_helpers.toast.defaults.duration');
     }
 
     public static function success(string $message, ?string $heading = null): FluxToast
