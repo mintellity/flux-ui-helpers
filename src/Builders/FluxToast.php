@@ -14,6 +14,8 @@ class FluxToast
 
     private int $duration = 2000;
 
+    private string $position = 'top-end';
+
     public function __construct(string $type)
     {
         $this->type = $type;
@@ -53,6 +55,13 @@ class FluxToast
         return $this;
     }
 
+    public function position(string $position): FluxToast
+    {
+        $this->position = $position;
+
+        return $this;
+    }
+
     public function show(): void
     {
         session()->put(config('flux_ui_helpers.toast.session_key_name'), $this);
@@ -64,7 +73,8 @@ class FluxToast
             text: $this->message,
             heading: $this->heading ?? '',
             duration: $this->duration,
-            variant: $this->type
+            variant: $this->type,
+            position: $this->position,
         );
     }
 }
