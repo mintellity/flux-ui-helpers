@@ -1,5 +1,5 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers;
+namespace Mintellity\FluxUIHelpers;
 
 class FluxUIHelpers {}

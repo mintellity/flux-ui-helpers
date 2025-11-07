@@ -1,6 +1,6 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers\Builders;
+namespace Mintellity\FluxUIHelpers\Builders;
 
 use Flux\Flux;
 

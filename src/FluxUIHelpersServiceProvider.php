@@ -1,11 +1,11 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers;
+namespace Mintellity\FluxUIHelpers;
 
 use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tobiasn\FluxUIHelpers\Livewire\SessionToast;
+use Mintellity\FluxUIHelpers\Livewire\SessionToast;
 
 class FluxUIHelpersServiceProvider extends PackageServiceProvider
 {

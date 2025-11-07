@@ -1,16 +1,16 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers\Facades;
+namespace Mintellity\FluxUIHelpers\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Tobiasn\FluxUIHelpers\FluxUIHelpers
+ * @see \Mintellity\FluxUIHelpers\FluxUIHelpers
  */
 class FluxUIHelpers extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Tobiasn\FluxUIHelpers\FluxUIHelpers::class;
+        return \Mintellity\FluxUIHelpers\FluxUIHelpers::class;
     }
 }

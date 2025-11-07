@@ -1,9 +1,9 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers\Livewire;
+namespace Mintellity\FluxUIHelpers\Livewire;
 
 use Livewire\Component;
-use Tobiasn\FluxUIHelpers\Builders\FluxToast;
+use Mintellity\FluxUIHelpers\Builders\FluxToast;
 
 class SessionToast extends Component
 {

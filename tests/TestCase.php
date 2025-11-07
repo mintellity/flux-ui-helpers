@@ -1,10 +1,10 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers\Tests;
+namespace Mintellity\FluxUIHelpers\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Tobiasn\FluxUIHelpers\FluxUIHelpersServiceProvider;
+use Mintellity\FluxUIHelpers\FluxUIHelpersServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Tobiasn\\FluxUIHelpers\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Mintellity\\FluxUIHelpers\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

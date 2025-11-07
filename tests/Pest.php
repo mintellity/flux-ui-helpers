@@ -1,5 +1,5 @@
 <?php
 
-use Tobiasn\FluxUIHelpers\Tests\TestCase;
+use Mintellity\FluxUIHelpers\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

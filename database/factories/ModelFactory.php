@@ -1,6 +1,6 @@
 <?php
 
-namespace Tobiasn\FluxUIHelpers\Database\Factories;
+namespace Mintellity\FluxUIHelpers\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
