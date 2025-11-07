@@ -3,9 +3,9 @@
 namespace Mintellity\FluxUIHelpers;
 
 use Livewire\Livewire;
+use Mintellity\FluxUIHelpers\Livewire\SessionToast;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mintellity\FluxUIHelpers\Livewire\SessionToast;
 
 class FluxUIHelpersServiceProvider extends PackageServiceProvider
 {
